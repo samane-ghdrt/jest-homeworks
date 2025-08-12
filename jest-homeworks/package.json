@@ -6,12 +6,15 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "test:watchAll": "jest --watchAll"
+    "test:watchAll": "jest --watchAll",
+  "type": "module"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "test": "^3.3.0"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
